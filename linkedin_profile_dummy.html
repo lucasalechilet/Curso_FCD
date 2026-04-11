@@ -1,0 +1,192 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans),sans-serif;background:var(--color-background-tertiary)}
+.li-bg{background:var(--color-background-tertiary);padding:16px;max-width:860px;margin:0 auto}
+.card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);margin-bottom:8px;overflow:hidden}
+.cover{background:linear-gradient(135deg,#0a66c2 0%,#004182 100%);height:120px;position:relative}
+.avatar-wrap{position:absolute;bottom:-40px;left:20px}
+.avatar{width:88px;height:88px;border-radius:50%;border:3px solid var(--color-background-primary);background:#c8e6f9;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:500;color:#0a66c2}
+.top-info{padding:52px 20px 16px}
+.name{font-size:20px;font-weight:500;color:var(--color-text-primary);margin-bottom:2px}
+.headline{font-size:14px;color:var(--color-text-primary);margin-bottom:6px}
+.location{font-size:13px;color:var(--color-text-secondary);margin-bottom:4px}
+.edu-work{font-size:13px;color:#0a66c2;margin-bottom:8px}
+.connections{font-size:13px;color:#0a66c2;font-weight:500;margin-bottom:12px}
+.cta-row{display:flex;gap:8px;flex-wrap:wrap}
+.btn-primary{background:#0a66c2;color:#fff;border:none;border-radius:16px;padding:5px 16px;font-size:14px;font-weight:500;cursor:pointer}
+.btn-secondary{background:transparent;color:#0a66c2;border:1.5px solid #0a66c2;border-radius:16px;padding:5px 16px;font-size:14px;font-weight:500;cursor:pointer}
+.section-title{font-size:16px;font-weight:500;color:var(--color-text-primary);padding:16px 20px 8px;border-bottom:0.5px solid var(--color-border-tertiary)}
+.section-body{padding:16px 20px}
+.section-body p{font-size:14px;color:var(--color-text-primary);line-height:1.6}
+.exp-item{display:flex;gap:12px;padding:12px 20px;border-bottom:0.5px solid var(--color-border-tertiary)}
+.exp-item:last-child{border-bottom:none}
+.exp-logo{width:44px;height:44px;border-radius:6px;background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:10px;color:var(--color-text-secondary);text-align:center}
+.exp-info{flex:1}
+.exp-role{font-size:14px;font-weight:500;color:var(--color-text-primary)}
+.exp-company{font-size:13px;color:var(--color-text-primary)}
+.exp-period{font-size:12px;color:var(--color-text-secondary);margin-bottom:6px}
+.exp-bullets{padding-left:16px;margin-top:4px}
+.exp-bullets li{font-size:13px;color:var(--color-text-primary);line-height:1.5;margin-bottom:3px}
+.skill-pill{display:inline-block;background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);border-radius:16px;padding:4px 12px;font-size:12px;color:var(--color-text-primary);margin:3px}
+.badge-new{background:#e8f3fc;color:#0a66c2;font-size:11px;font-weight:500;padding:2px 8px;border-radius:10px;display:inline-block;margin-left:6px}
+.edu-item{display:flex;gap:12px;padding:12px 20px}
+.pub-item{padding:12px 20px;border-bottom:0.5px solid var(--color-border-tertiary)}
+.pub-item:last-child{border-bottom:none}
+.pub-title{font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:2px}
+.pub-detail{font-size:13px;color:var(--color-text-secondary)}
+</style>
+
+<div class="li-bg">
+
+<div class="card">
+  <div class="cover"></div>
+  <div class="avatar-wrap">
+    <div class="avatar">LA</div>
+  </div>
+  <div class="top-info">
+    <div class="name">Lucas Tomás Alé Chilet</div>
+    <div class="headline">Data Scientist | ML &amp; Deep Learning | Python · Keras · Apache Spark | Electrical Engineer</div>
+    <div class="location">Santiago, Región Metropolitana, Chile</div>
+    <div class="edu-work">Alkemy · Universidad de los Andes</div>
+    <div class="connections">125 contactos</div>
+    <div class="cta-row">
+      <button class="btn-primary">Conectar</button>
+      <button class="btn-secondary">Mensaje</button>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="section-title">Acerca de</div>
+  <div class="section-body">
+    <p>Soy Ingeniero Eléctrico con más de 6 años de experiencia en I+D, desarrollo de software y aprendizaje automático aplicado, en transición activa hacia la Ciencia de Datos.</p>
+    <p style="margin-top:10px">Mi formación en Alkemy (Beca Talento Digital Chile) me ha permitido construir el pipeline completo de Data Science: desde estadística inferencial y ML supervisado/no supervisado hasta deep learning con Keras/TensorFlow y Big Data con Apache Spark. Desarrollé modelos de predicción de gasto en e-commerce (GBR, R²&gt;0,90), segmentación de clientes con K-Means y DBSCAN, redes neuronales densas y CNN para clasificación de imágenes, y pipelines de MLlib a escala.</p>
+    <p style="margin-top:10px">Mi base técnica en Python, procesamiento de imágenes biomédicas (OpenCV, LabVIEW) y colaboración con equipos interdisciplinarios me da una perspectiva única para resolver problemas complejos con datos.</p>
+    <p style="margin-top:10px">Busco mi primer rol como Data Scientist o ML Engineer donde seguir creciendo y generando impacto.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="section-title">Experiencia</div>
+
+  <div class="exp-item">
+    <div class="exp-logo">ALK</div>
+    <div class="exp-info">
+      <div class="exp-role">Estudiante — Fundamentos de Data Science <span class="badge-new">Nuevo</span></div>
+      <div class="exp-company">Alkemy · Beca Talento Digital Chile</div>
+      <div class="exp-period">Dic. 2024 – Actualidad · 5 meses</div>
+      <ul class="exp-bullets">
+        <li><strong>ML Supervisado:</strong> predicción de gasto en e-commerce (Regresión Lineal, KNN, GBR, GridSearchCV). Mejor modelo: R²&gt;0,90.</li>
+        <li><strong>ML No Supervisado:</strong> segmentación de clientes con K-Means, DBSCAN y clustering jerárquico; PCA y t-SNE.</li>
+        <li><strong>Deep Learning:</strong> redes densas y CNN con Keras/TensorFlow; Dropout, EarlyStopping, regularización.</li>
+        <li><strong>Big Data:</strong> pipeline con Apache Spark — RDDs, Spark SQL, Parquet y MLlib (Regresión Logística + K-Means a escala).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-logo">SAN</div>
+    <div class="exp-info">
+      <div class="exp-role">CEO</div>
+      <div class="exp-company">Sanedcorp SpA</div>
+      <div class="exp-period">2021 – Actualidad · 4 años</div>
+      <ul class="exp-bullets">
+        <li>Lideré consultoría en tratamiento de agua, energías renovables e infraestructura.</li>
+        <li>Análisis técnico y financiero de proyectos fotovoltaicos, BESS, desalinización y alta tensión.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-logo">SCI</div>
+    <div class="exp-info">
+      <div class="exp-role">Ingeniero Biomatemático</div>
+      <div class="exp-company">Scian Lab, IBN – Universidad de Chile</div>
+      <div class="exp-period">2016 – 2021 · 5 años</div>
+      <ul class="exp-bullets">
+        <li>Desarrollé software de control (LabVIEW, Python, Matlab) para microscopios Light-Sheet y Spinning Disk.</li>
+        <li>Construí pipelines de procesamiento de imágenes biomédicas (Python, OpenCV) para cuantificación celular.</li>
+        <li>Apliqué ML para clasificación de imágenes; gestión de datos con PostgreSQL.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-logo">CED</div>
+    <div class="exp-info">
+      <div class="exp-role">Ingeniero de Sistemas</div>
+      <div class="exp-company">CEDAI – Universidad de Chile</div>
+      <div class="exp-period">2016 – 2021 · 5 años</div>
+      <ul class="exp-bullets">
+        <li>Mantuve y mejoré software Python/Matlab/C++ para sistemas de espermiograma digital.</li>
+        <li>Clasificación de imágenes biomédicas con ML y pipelines de datos en PostgreSQL.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-logo">IST</div>
+    <div class="exp-info">
+      <div class="exp-role">Pasante de Investigación</div>
+      <div class="exp-company">IST Austria</div>
+      <div class="exp-period">Abr. – May. 2018 · 2 meses</div>
+      <ul class="exp-bullets">
+        <li>Diseñé sistema de Laser Ablation integrado con microscopio Spinning Disk (LabVIEW), para investigación en embriones de pez cebra.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="card">
+  <div class="section-title">Educación</div>
+  <div class="edu-item">
+    <div class="exp-logo">UDA</div>
+    <div class="exp-info">
+      <div class="exp-role">Ingeniero Civil Eléctrico</div>
+      <div class="exp-company">Universidad de los Andes</div>
+      <div class="exp-period">2009 – 2016</div>
+      <p style="font-size:13px;color:var(--color-text-secondary);margin-top:4px">Tesis: Detección de peatones con Extreme Learning Machine usando Python y OpenCV sobre cámara Kinect.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="section-title">Publicaciones</div>
+  <div class="pub-item">
+    <div class="pub-title">Delayed biofilm formation in non-motile uropathogenic E. coli in static and dynamic growth conditions</div>
+    <div class="pub-detail">Microbial Pathogenesis · Sep. 2025 · Canales-Huerta, N. et al. (incl. Alé Chilet, L.)</div>
+  </div>
+  <div class="pub-item">
+    <div class="pub-title">La proteína Patched-related contribuye a la regulación de macrófagos embrionarios en Drosophila melanogaster</div>
+    <div class="pub-detail">Póster · II Congreso Nacional de Biociencias, Uruguay · Sep. 2019</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="section-title">Habilidades</div>
+  <div class="section-body" style="padding-top:10px">
+    <div>
+      <span class="skill-pill">Python</span>
+      <span class="skill-pill">Scikit-learn</span>
+      <span class="skill-pill">Pandas</span>
+      <span class="skill-pill">NumPy</span>
+      <span class="skill-pill">Keras</span>
+      <span class="skill-pill">TensorFlow</span>
+      <span class="skill-pill">XGBoost</span>
+      <span class="skill-pill">Apache Spark</span>
+      <span class="skill-pill">PySpark MLlib</span>
+      <span class="skill-pill">Spark SQL</span>
+      <span class="skill-pill">OpenCV</span>
+      <span class="skill-pill">PostgreSQL</span>
+      <span class="skill-pill">LabVIEW</span>
+      <span class="skill-pill">Matlab</span>
+      <span class="skill-pill">C++</span>
+      <span class="skill-pill">Git</span>
+      <span class="skill-pill">Jupyter</span>
+    </div>
+  </div>
+</div>
+
+</div>
